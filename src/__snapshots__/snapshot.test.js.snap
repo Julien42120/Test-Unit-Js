@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightService Should return a list of flights 1`] = `
+Object {
+  "arrivalDatetime": "2018-06-15T21:00:00",
+  "departure": "DUB",
+  "departureDatetime": "2018-06-15T17:25:00",
+  "destination": "WRO",
+  "flightNumber": "FR153",
+}
+`;
+
+exports[`User will check the matchers and pass 1`] = `
+Object {
+  "createdAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "LeBron James",
+}
+`;
+
+exports[`User will check the matchers and pass 2`] = `
+Object {
+  "createdAt": Any<Date>,
+  "name": "Bond... James Bond",
+}
+`;
